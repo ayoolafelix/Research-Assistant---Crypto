@@ -1,0 +1,6 @@
+It’s a bad Idea to use recursion to find the Fibonacci of a number because the time taken for computing nth Fibonacci number is exponential 
+for a recursive algorithm while the time taken is linear for an iterative algorithm. Due to this exponential time, it’s expensive to use 
+recursion to solve Fibonacci, both in terms of cost and time. Unless the language being used to implement the Fibonacci guarantees tail 
+recursion elimination and automatic memorization, then recursion can be implemented with little or no loss in efficiency although sometimes 
+this efficiency may come at the expense of readability due to the need to abstract the code to optimize efficiency hence it’s imperative that 
+using recursion might not be the best idea to solve Fibonacci since Iteration exists.
